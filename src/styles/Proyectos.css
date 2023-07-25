@@ -37,6 +37,14 @@
   height: 183px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 25px;
+  box-shadow: 1px 2px 5px rgba(255, 255, 255, 1);
+  transition: transform 1s ease-in-out, border-radius 1s ease-in-out;
+}
+
+.above:hover {
+  transform: scale(1.2);
+  border-radius: 25px 25px 0px 0px;
 }
 
 .middle {
@@ -52,6 +60,7 @@
   font-size: 0.875rem;
   width: 100%;
   height: 90px;
+  line-height: 1.5rem;
 }
 
 .middle span {
@@ -73,12 +82,30 @@
   width: 100%;
 }
 
-.below a {
-  background-color: rgb(103, 103, 103);
+.button {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(59, 59, 59, 1) 20%,
+    rgba(59, 59, 59, 1) 80%,
+    rgba(15, 15, 15, 1) 100%
+  );
   color: #fff;
   font-weight: bold;
   padding: 0.5rem 1rem;
   border-radius: 25px;
+  box-shadow: 1px 2px 5px rgba(255, 255, 255, 0.5);
+  user-select: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: none;
+}
+
+.button:active {
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
 }
 
 @media (max-width: 600px) {

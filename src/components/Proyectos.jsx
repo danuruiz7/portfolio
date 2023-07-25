@@ -82,12 +82,12 @@ const Proyectos = () => {
 
             <div className="below">
               <div className="code">
-                <a href={pj.code} target="_blank" rel="noreferrer">
+                <a className="button" target="_blank" rel="noreferrer">
                   <i className="bi bi-github"></i> Ver codigo
                 </a>
               </div>
               <div className="preview">
-                <a href={pj.preview} target="_blank" rel="noreferrer">
+                <a className="button" target="_blank" rel="noreferrer">
                   <i className="bi bi-display"></i> Ver proyecto
                 </a>
               </div>

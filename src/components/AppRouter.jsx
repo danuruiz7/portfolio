@@ -3,18 +3,22 @@ import Navbar from "./Navbar";
 import Home from "./Home";
 import About from "./About";
 import Skills from "./Skills";
+import Footer from "./Footer";
 
 const AppRouter = () => {
   return (
-    <div className="container">
-      <Navbar />
+    <>
+      <div className="container">
+        <Navbar />
 
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/skills" element={<Skills />} />
-      </Routes>
-    </div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
+        </Routes>
+      </div>
+      <Footer />
+    </>
   );
 };
 
