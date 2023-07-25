@@ -1,5 +1,4 @@
 import "../styles/Proyectos.css";
-import fotoweather from "../img/1-wheather-app.png";
 
 const proyectos = [
   {
@@ -8,7 +7,7 @@ const proyectos = [
       "Proyecto realizado con React JS, utilizando el método fetch para llamar a la API de WeatherAPI y obtener datos meteorológicos en tiempo real.",
     techs: "React JS, Css, API",
     image:
-      "https://github.com/danuruiz7/WeatherApp/blob/main/public/wheather-app.png?raw=true",
+      "https://raw.githubusercontent.com/danuruiz7/WeatherApp/main/public/preview-wahd.png",
     code: "https://github.com/danuruiz7/WeatherApp",
     preview: "https://weather-app-danudev.vercel.app",
   },
@@ -23,6 +22,15 @@ const proyectos = [
     code: "https://github.com/danuruiz7/liramotorsweb",
 
     preview: "https://liramotors.netlify.app",
+  },
+  {
+    title: "Portfolio",
+    description: "Portfolio personal para mostrar mis proyectos y experiencias",
+    techs: "React JS, React Router 6, Css",
+    image:
+      "https://github.com/danuruiz7/portfolio/blob/main/src/img/preview.png?raw=true",
+    code: "https://github.com/danuruiz7/portfolio/tree/main",
+    preview: "#",
   },
   {
     title: "Wheather App",
@@ -30,7 +38,7 @@ const proyectos = [
       "Proyecto realizado con React JS, utilizando el método fetch para llamar a la API de WeatherAPI y obtener datos meteorológicos en tiempo real.",
     techs: "React JS, Css, API",
     image:
-      "https://github.com/danuruiz7/WeatherApp/blob/main/public/wheather-app.png?raw=true",
+      "https://raw.githubusercontent.com/danuruiz7/WeatherApp/main/public/preview-wahd.png",
     code: "https://github.com/danuruiz7/WeatherApp",
     preview: "https://weather-app-danudev.vercel.app",
   },
@@ -46,30 +54,47 @@ const proyectos = [
 
     preview: "https://liramotors.netlify.app",
   },
+  {
+    title: "Portfolio",
+    description: "Portfolio personal para mostrar mis proyectos y experiencias",
+    techs: "React JS, React Router 6, Css",
+    image:
+      "https://github.com/danuruiz7/portfolio/blob/main/src/img/preview.png?raw=true",
+    code: "https://github.com/danuruiz7/portfolio/tree/main",
+    preview: "#",
+  },
 ];
 
 const Proyectos = () => {
   return (
     <div className="projects">
       <h2 className="projects-title">Proyectos</h2>
-      <div className="projects-container">
-        {proyectos.map((pj) => (
-          <div key={pj.title} className="project-card">
-            <img src={pj.image} alt={pj.title} />
-            <h3 className="project-title">{pj.title}</h3>
-            <p className="project-description">{pj.description}</p>
-            <span className="project-techs">{pj.techs}</span>
-            <div className="project-links">
-              <a href={pj.code} target="_blank" rel="noreferrer">
-                Ver Codigo
-              </a>
-              <a href={pj.preview} target="_blank" rel="noreferrer">
-                Ver proyecto
-              </a>
+      <ul className="projects-container">
+        {proyectos.map((pj, index) => (
+          <li className="project-card" key={index}>
+            <img className="above" src={pj.image} alt={pj.title} />
+
+            <div className="middle">
+              <h3>{pj.title}</h3>
+              <p>{pj.description}</p>
+              <span>{pj.techs}</span>
             </div>
-          </div>
+
+            <div className="below">
+              <div className="code">
+                <a href={pj.code} target="_blank" rel="noreferrer">
+                  <i className="bi bi-github"></i> Ver codigo
+                </a>
+              </div>
+              <div className="preview">
+                <a href={pj.preview} target="_blank" rel="noreferrer">
+                  <i className="bi bi-display"></i> Ver proyecto
+                </a>
+              </div>
+            </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   );
 };
