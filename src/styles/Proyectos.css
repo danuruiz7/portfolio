@@ -114,6 +114,11 @@
     place-content: center;
   }
 
+  .above:hover {
+    transform: scale(1);
+    border-radius: 25px 25px 0px 0px;
+  }
+
   .middle p {
     margin-bottom: 1rem;
   }
@@ -131,6 +136,12 @@
     margin: 0 2rem;
     gap: 3rem;
   }
+
+  .above:hover {
+    transform: scale(1);
+    border-radius: 25px 25px 0px 0px;
+  }
+
   .below {
     flex-direction: column;
     gap: 2rem;
@@ -141,5 +152,10 @@
   .projects-container {
     grid-template-columns: 1fr 1fr;
     margin: 0 2rem;
+  }
+
+  .above:hover {
+    transform: scale(1);
+    border-radius: 25px 25px 0px 0px;
   }
 }

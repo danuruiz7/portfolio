@@ -37,6 +37,10 @@
   width: 80px;
 }
 
+.skill p {
+  margin-top: 0.5rem;
+}
+
 @media (max-width: 500px) {
   .card-skills {
     width: 80%;

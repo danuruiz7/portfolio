@@ -4,13 +4,21 @@ const Footer = () => {
   return (
     <footer>
       <div className="social-links">
-        <a href="">
+        <a href="https://github.com/danuruiz7" target="_blank" rel="noreferrer">
           <i className="bi bi-github"></i>
         </a>
-        <a href="">
+        <a
+          href="https://www.linkedin.com/in/danieleruizm/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="bi bi-linkedin"></i>
         </a>
-        <a href="">
+        <a
+          href="https://www.instagram.com/danuruiz7/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <i className="bi bi-instagram"></i>
         </a>
       </div>

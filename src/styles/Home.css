@@ -30,12 +30,12 @@
 .card-description {
   font-size: 1.2rem;
   width: 85%;
-  line-height: 1.5rem;
+  line-height: 1.75rem;
 }
 
 .card-button {
   background-color: antiquewhite;
-  color: black;
+  color: #28a2da;
   padding: 0.5rem 1rem;
   border-radius: 25px;
   width: 15%;

@@ -11,18 +11,16 @@ const Home = () => {
           <article className="card-body">
             <h3 className="card-title">Sobre mi</h3>
             <p className="card-description">
-              Como persona proactiva, disfruto de la emoción de asumir y superar
-              nuevos retos. Actualmente cuento con 2 meses de experiencia en
-              programación. En mi tiempo libre hago divulgación de programación
-              en internet. He formado una gran comunidad en la que desarrollamos
-              proyectos open-source para estar al día con las últimas
-              tecnologías y ayudar a la comunidad hispanohablante a subir su
-              nivel en programación
+              Desarrollador frontend con conocimientos en el desarrollo backend
+              y bases de datos. Mi trayectoria abarca casi un año en el mundo de
+              la programación, con gran parte de mi formación adquirida de forma
+              autodidacta. Disfruto enfrentar y superar nuevos retos, y me gusta
+              trabajar en equipo e intercambiar ideas.
             </p>
             <a
               className="card-button"
               target="_blank"
-              // href="https://www.linkedin.com/in/danieleruizm/"
+              href="https://www.linkedin.com/in/danieleruizm/"
             >
               Linkedin
             </a>
