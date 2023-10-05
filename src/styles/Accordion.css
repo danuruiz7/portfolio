@@ -1,0 +1,46 @@
+/* Estilos para el acordeón */
+.accordion {
+  width: 100%;
+}
+
+.accordion-item {
+  border: 1px solid #ccc;
+}
+
+.accordion-title {
+  background-color: #000000;
+  padding: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-content {
+  background-color: #ffffff;
+  color: black;
+  height: max-content;
+  padding: 10px;
+  opacity: 1;
+  transition: all 0.2s linear;
+  font-size: 0.8rem;
+  box-shadow: inset 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.hidden {
+  height: 0;
+  overflow: hidden;
+  padding: 0;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 600px) {
+  .accordion-title {
+    font-size: 0.9rem;
+  }
+
+  .accordion-content {
+    font-size: 0.7rem;
+  }
+}

@@ -1,5 +1,5 @@
-footer {
-  margin-top: 1rem;
+.footer {
+  margin-top: 2rem;
   padding: 2rem;
   display: grid;
   place-content: center;

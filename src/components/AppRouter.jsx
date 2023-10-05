@@ -1,13 +1,13 @@
-import { Route, Routes } from "react-router-dom";
-import Navbar from "./Navbar";
-import Home from "./Home";
-import About from "./About";
-import Skills from "./Skills";
-import Footer from "./Footer";
+import { Route, Routes } from 'react-router-dom';
+import Navbar from './Navbar';
+import Home from './Home';
+import About from './About';
+import Skills from './Skills';
+import Footer from './Footer';
 
 const AppRouter = () => {
   return (
-    <>
+    <main>
       <div className="container">
         <Navbar />
 
@@ -18,7 +18,7 @@ const AppRouter = () => {
         </Routes>
       </div>
       <Footer />
-    </>
+    </main>
   );
 };
 

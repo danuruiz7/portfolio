@@ -1,0 +1,84 @@
+.about-section {
+}
+
+.about-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.about-card-container {
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 12px;
+  border: 1px solid white;
+  margin-bottom: 1rem;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.5);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  box-shadow: inset 3px 2px 5px rgb(175, 175, 175, 0.5);
+}
+
+.about-card-header {
+  border-bottom: 1px solid rgb(141, 141, 141);
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-card-title {
+  font-size: 2rem;
+}
+
+.about-card-academy-name {
+  font-size: 1.8rem;
+}
+
+.about-card-body {
+  padding: 1rem;
+}
+
+.about-card-body-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.9rem;
+}
+
+.about-card-footer {
+  border-top: 1px solid rgb(141, 141, 141);
+  padding: 0.75rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-card-footer-link {
+  text-decoration: underline;
+  font-weight: 700;
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.about-card-footer-link:hover {
+  color: #b9b9b9;
+}
+
+@media (max-width: 600px) {
+  .about-card-container {
+    width: 95%;
+  }
+
+  .about-card-title {
+    font-size: 1.3rem;
+  }
+
+  .about-card-academy-name {
+    font-size: 1rem;
+  }
+
+  .about-card-body-title {
+    font-size: 1rem;
+  }
+}

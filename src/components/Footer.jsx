@@ -1,8 +1,8 @@
-import "../styles/Footer.css";
+import '../styles/Footer.css';
 
 const Footer = () => {
   return (
-    <footer>
+    <footer className="footer">
       <div className="social-links">
         <a href="https://github.com/danuruiz7" target="_blank" rel="noreferrer">
           <i className="bi bi-github"></i>
