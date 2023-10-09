@@ -3,7 +3,7 @@ import previewImg from '../img/preview.png';
 const proyectos = [
   //TaskAPP
   {
-    title: 'TaskApp',
+    title: 'TasksApp',
     description:
       'Crea tu cuenta, organiza tareas y accede desde cualquier dispositivo al instante.',
     techs: 'React TS, Express JS, MySQL',
