@@ -8,7 +8,7 @@ const proyectos = [
       'Crea tu cuenta, organiza tareas y accede desde cualquier dispositivo al instante.',
     techs: 'React TS, Express JS, MySQL',
     image:
-      'https://raw.githubusercontent.com/danuruiz7/tasksApp/main/public/tasksApp-preview.png',
+      'https://raw.githubusercontent.com/danuruiz7/tasksApp/main/imagen_preview/tasksApp-preview.png',
     code: 'https://github.com/danuruiz7/tasksApp',
     preview: 'https://tasks-app-by-danuruiz7.vercel.app/',
   },
