@@ -11,11 +11,17 @@ const Home = () => {
           <article className="card-body">
             <h3 className="card-title">Sobre mi</h3>
             <p className="card-description">
-              Desarrollador frontend con conocimientos en el desarrollo backend
-              y bases de datos. Mi trayectoria abarca casi un año en el mundo de
-              la programación, con gran parte de mi formación adquirida de forma
-              autodidacta. Disfruto enfrentar y superar nuevos retos, y me gusta
-              trabajar en equipo e intercambiar ideas.
+              Desarrollador Full Stack con experiencia en Front-end utilizando
+              tecnologías como <strong>HTML, CSS, JavaScript y React,</strong>{' '}
+              incluyendo TypeScript. En el Back-end, tengo sólidos conocimientos
+              en Node.js, Express.js y Python con Django Rest Framework, además
+              de experiencia en bases de datos como PostgreSQL y MySQL. También
+              soy competente en el uso de Git y GitHub para el control de
+              versiones y colaboración en equipo. Con casi un año de
+              experiencia, he adquirido la mayoría de mis habilidades de forma
+              autodidacta. Estoy comprometido con la excelencia en el desarrollo
+              web y siempre estoy ansioso por enfrentar nuevos desafíos y
+              aprender continuamente..
             </p>
             <a
               className="card-button"
