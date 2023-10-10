@@ -28,9 +28,14 @@
 }
 
 .card-description {
-  font-size: 1.2rem;
-  width: 85%;
+  font-size: 0.98rem;
+  width: 100%;
+  margin: 1rem 0;
   line-height: 1.75rem;
+}
+
+.card-description strong {
+  color: #28a2da;
 }
 
 .card-button {
@@ -95,10 +100,11 @@
   }
 
   .card-description {
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin-bottom: 1rem;
-    font-size: 1.05rem;
+    font-size: 0.9rem;
+    line-height: 1.35rem;
   }
 
   .card-button {
