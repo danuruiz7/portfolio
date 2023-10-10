@@ -1,6 +1,6 @@
-import fotoProfile from "../img/profile.png";
-import "../styles/Home.css";
-import Proyectos from "./Proyectos";
+import fotoProfile from '../img/profile.png';
+import '../styles/Home.css';
+import Proyectos from './Proyectos';
 
 const Home = () => {
   return (
@@ -20,7 +20,8 @@ const Home = () => {
             <a
               className="card-button"
               target="_blank"
-              href="https://www.linkedin.com/in/danieleruizm/"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/daniel-elias-ruiz-medina/"
             >
               Linkedin
             </a>

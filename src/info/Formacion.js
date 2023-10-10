@@ -32,7 +32,7 @@ export const formacion = [
       name: 'Xavier Reyes Ochoa',
       link: 'https://www.linkedin.com/in/xavier-reyes-ochoa/',
     },
-    certificados: 'https://www.linkedin.com/in/danieleruizm/',
+    certificados: 'https://www.linkedin.com/in/daniel-elias-ruiz-medina/',
   },
   {
     id: 2,
@@ -57,7 +57,7 @@ export const formacion = [
       name: 'Xavier Reyes Ochoa',
       link: 'https://www.linkedin.com/in/xavier-reyes-ochoa/',
     },
-    certificados: 'https://www.linkedin.com/in/danieleruizm/',
+    certificados: 'https://www.linkedin.com/in/daniel-elias-ruiz-medina/',
   },
   {
     id: 3,
@@ -77,6 +77,6 @@ export const formacion = [
       name: 'Xavier Reyes Ochoa',
       link: 'https://www.linkedin.com/in/xavier-reyes-ochoa/',
     },
-    certificados: 'https://www.linkedin.com/in/danieleruizm/',
+    certificados: 'https://www.linkedin.com/in/daniel-elias-ruiz-medina/',
   },
 ];

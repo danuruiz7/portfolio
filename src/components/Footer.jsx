@@ -8,7 +8,7 @@ const Footer = () => {
           <i className="bi bi-github"></i>
         </a>
         <a
-          href="https://www.linkedin.com/in/danieleruizm/"
+          href="https://www.linkedin.com/in/daniel-elias-ruiz-medina/"
           target="_blank"
           rel="noreferrer"
         >
