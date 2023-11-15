@@ -52,3 +52,20 @@ li {
   -moz-box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.7);
   box-shadow: 0px 0px 17px 3px rgba(0, 0, 0, 0.7);
 }
+
+/* Para WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra de desplazamiento */
+  background-color: rgba(
+    36,
+    36,
+    36,
+    1
+  ); /* Fondo transparente de la barra de desplazamiento */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffff; /* Color del pulgar de la barra de desplazamiento */
+  border-radius: 50px; /* Borde redondeado del pulgar */
+  scroll-padding-top: 1rem;
+}
