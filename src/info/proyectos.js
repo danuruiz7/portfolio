@@ -12,13 +12,14 @@ const proyectos = [
     code: 'https://github.com/danuruiz7/tasksApp',
     preview: 'https://tasks-app-by-danuruiz7.vercel.app/',
   },
-  //TaskAPP
+  //ClonSpotify
   {
     title: 'ClonSpotify',
     description:
       'Crea tu cuenta, organiza tareas y accede desde cualquier dispositivo al instante.',
     techs: 'Astro,ReactTS',
-    image: '/src/img/spoti.png',
+    image:
+      'https://github.com/danuruiz7/portfolio/blob/main/src/img/spoti.png?raw=true',
     code: 'https://github.com/danuruiz7/ClonSpotify',
     preview: 'https://clon-spotify-two.vercel.app/',
   },
